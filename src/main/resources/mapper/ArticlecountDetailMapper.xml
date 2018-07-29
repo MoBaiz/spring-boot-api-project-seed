@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.ArticlecountDetailMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.ArticlecountDetail">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="ACD_project" jdbcType="INTEGER" property="acdProject" />
+    <result column="ACD_time" jdbcType="DATE" property="acdTime" />
+    <result column="ACD_media" jdbcType="INTEGER" property="acdMedia" />
+    <result column="ACD_emotion" jdbcType="INTEGER" property="acdEmotion" />
+    <result column="ACD_original" jdbcType="BIT" property="acdOriginal" />
+    <result column="ACD_usertype" jdbcType="INTEGER" property="acdUsertype" />
+    <result column="ACD_articlecount" jdbcType="INTEGER" property="acdArticlecount" />
+    <result column="ACD_timestamp" jdbcType="BIGINT" property="acdTimestamp" />
+  </resultMap>
+</mapper>
